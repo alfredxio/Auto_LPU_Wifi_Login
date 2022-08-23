@@ -1,6 +1,6 @@
 # Auto_LPU_Wifi_Login
 A python based app that helps you in connecting to LPU college Wi-Fi (Hostel/ Wireless) and automatically logins with your given credentials.
-
+Install the pyppeteer library -> pip install pyppeteer
 This simple project is based on python, uses the pyppeteer and the os library. The os library helps in interacting with the operating system and connecting to desired wifi with SSID and XML configuration.
 Connecting to college Wi-Fi is not the final step as we also have to login to college IP : 10.10.0.1
 For that we use the pyppeteer library that is a chromium browser automation tool. It opens the IP address and automatically logs in using the provided data.
